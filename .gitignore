@@ -15,6 +15,9 @@ managed_components/
 .DS_Store
 Thumbs.db
 
+# Local-only developer context (not for GitHub)
+CONTEXT.md
+
 # Secrets (never commit local overrides)
 sdkconfig.local
 *.pem
