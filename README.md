@@ -24,6 +24,10 @@ Wiring and bring-up notes: [`docs/HARDWARE.md`](docs/HARDWARE.md).
 
 **Inverter:** Aurora / Power-One family (and compatible clones) with an RS-485 port labelled per the inverter manual (+T/R, −T/R, RTN, etc.).
 
+<p align="center">
+  <img src="docs/images/aurora-inverter.png" alt="ABB UNO Aurora / Power-One class inverter" width="320">
+</p>
+
 ## What it does
 
 - **Provisioning:** Open Wi‑Fi AP `aurora-XXXXXX` and setup page at `http://192.168.4.1/` until Wi‑Fi is saved.
