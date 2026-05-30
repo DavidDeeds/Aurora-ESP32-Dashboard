@@ -1,0 +1,22 @@
+# ESP-IDF build artifacts
+build/
+sdkconfig
+sdkconfig.old
+dependencies.lock.bak
+
+# Component manager (recreated from main/idf_component.yml + dependencies.lock)
+managed_components/
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Secrets (never commit local overrides)
+sdkconfig.local
+*.pem
+*.key
+.env
