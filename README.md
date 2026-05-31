@@ -52,6 +52,22 @@ Feature list and API summary: [`FEATURES.md`](FEATURES.md).
 
 Default sign-in after flash or factory reset: username **`Admin`**, password **`Password`** (change via the dashboard).
 
+<p align="center">
+  <img src="docs/images/screenshot-01-dashboard.png" alt="Aurora ESP32 dashboard (main page)" width="720">
+</p>
+
+<p align="center">
+  <img src="docs/images/screenshot-02-charts.png" alt="History charts" width="720">
+</p>
+
+<p align="center">
+  <img src="docs/images/screenshot-03-inverter-settings.png" alt="Inverter settings" width="720">
+</p>
+
+<p align="center">
+  <img src="docs/images/screenshot-04-status-json.png" alt="Device status JSON API" width="720">
+</p>
+
 ## Requirements
 
 - **[ESP-IDF](https://docs.espressif.com/projects/esp-idf/)** v5.x or **v6.x** (developed with **6.0**)
