@@ -2,8 +2,6 @@
 
 ESP-IDF firmware for a **local web dashboard** that polls **Aurora / Power-One class solar inverters** over **RS-485**, shows live metrics and charts on your LAN, and can upload readings to **[PVOutput](https://pvoutput.org/)**.
 
-A low-cost, low-power, all-in-one solution for accurately capturing solar generation data and uploading it directly to PVOutput.org.
-
 This project is intended as a more accurate alternative to the **ABB VSN300** card, while also avoiding the extra hardware and power consumption of a traditional RS485-to-TCP/IP serial converter setup.
 
 In my testing, the Waveshare device consumes **less than 400 mW**, roughly one-third of the power used by a typical RS485 serial converter. Because the upload software runs directly on the device, there is no need for a separate computer or Raspberry Pi.
